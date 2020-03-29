@@ -43,4 +43,16 @@
 # total_operation_time = te-ts
 # print(num, lpf, total_operation_time)
 
+# 4 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+# Find the largest palindrome made from the product of two 3-digit numbers.
+
+
+# p_num = 0
+# for i in range(10000, 1000, -1):
+#     for j in range(10000, i-1, -1):
+#         num = i * j
+#         s_num = str(num)
+#         if s_num == s_num[::-1] and num > p_num:
+#             print(f'{i}*{j}={num}')
+#             p_num = num
 
